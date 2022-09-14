@@ -72,14 +72,14 @@ const useStyles = makeStyles((theme) => ({
     marginTop: 20,
   },
   container: {
-    maxHeight: 550,
+    maxHeight: 2000,
   },
 }));
 const StyledTableCell = withStyles((theme) => ({
   head: {
     backgroundColor: theme.palette.primary.main,
     color: theme.palette.common.white,
-    fontSize: 18,
+    fontSize: 14,
   },
   body: {
     fontSize: 14,
